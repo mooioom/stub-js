@@ -62,3 +62,5 @@ Resulting stub data :
 * random(list,of,available,items)
 
 :+1:
+
+ואהבת לרעך כמוך
