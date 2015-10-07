@@ -1,5 +1,5 @@
 # stubJs
-**js stub generator for creating dummy data objects**
+Js stub generator for creating dummy data objects
 
 ## Basic Usage
 
