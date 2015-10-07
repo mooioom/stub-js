@@ -10,7 +10,7 @@ var data = stubJs('random(cat,dog,mouse,fish)',5)
 ```
 
 ## Objects / Arrays
-
+```
 var data = stubJs({
 
 	boolean : 'boolean',
@@ -23,7 +23,7 @@ var data = stubJs({
 	animal  : 'random(dog,cat,mouse,fish)',
 
 },2 );
-
+```
 resulting stub data : 
 ```
 [
