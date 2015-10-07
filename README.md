@@ -1,12 +1,12 @@
 # stubJs
-**js stub generator for creating dummy data objects on the fly**
+**js stub generator for creating dummy data objects**
 
 ## Basic Usage
 
 ```
-var data = stubJs('random(cat,dog,mouse,fish)',5) 
+var data = stubJs( 'random(cat,dog,mouse,fish)', 5 ); 
 
-// [ cat, fish, fish, dog, mouse];
+// [ 'cat', 'fish', 'fish', 'dog', 'mouse' ];
 ```
 
 ## Objects / Arrays
