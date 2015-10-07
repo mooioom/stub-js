@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>stubJS</title>
+	<script type="text/javascript" src="stubJs.js"></script>
+	<script type="text/javascript">
+
+	var data = stubJs({
+
+		boolean : 'boolean',
+		string  : 'string',
+		number  : 'number',
+		object  : { number : 'number', string : 'string' },
+		array   : ['number',10],
+		date    : 'date',
+		color   : 'color',
+		animal  : 'random(dog,cat,mouse,fish)',
+
+	},2);
+
+	console.log(data);
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>
