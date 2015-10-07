@@ -60,3 +60,5 @@ Resulting stub data :
 * date(start,end)
 * color
 * random(list,of,available,items)
+
+:+1:
