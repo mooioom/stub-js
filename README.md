@@ -24,7 +24,7 @@ var data = stubJs({
 
 },2 );
 ```
-resulting stub data : 
+Resulting stub data : 
 ```
 [
 	{
