@@ -13,7 +13,7 @@ var data = stubJs( 'random(cat,dog,mouse,fish)', 5 );
 ```
 var data = stubJs({
 
-	boolean : 'boolean',
+	boolean : 'boolean', 
 	string  : 'string',
 	number  : 'number',
 	object  : { number : 'number', string : 'string' },
