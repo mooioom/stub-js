@@ -5,6 +5,7 @@
 
 ```
 var data = stubJs('random(cat,dog,mouse,fish)',5) 
+
 // [ cat, fish, fish, dog, mouse];
 ```
 
@@ -24,7 +25,7 @@ var data = stubJs({
 },2 );
 
 resulting stub data : 
-
+```
 [
 	{
 		boolean : true,
@@ -47,6 +48,7 @@ resulting stub data :
 		animal  : 'fish',
 	}
 ]
+```
 
 ## Options
 
