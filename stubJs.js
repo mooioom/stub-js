@@ -13,6 +13,7 @@
 		date    : 'date(start,end)', 							// default - now
 		color   : 'color',
 		animal  : 'random(dog,cat,mouse,fish)',
+		custom  : 'my number is : {{number(1,10)}}'
 
 	},2)
 
@@ -35,6 +36,15 @@ window.stubJs = function( settings, amount ){
 		if(s.indexOf('random')  === 0) return getRandom.apply(this,props);
 		if(s.indexOf('color')   === 0) return getColor.apply(this,props);
 		if(s.indexOf('index')   === 0) return idx;
+
+		if(s.indexOf('{{') != -1){
+			s = s.replace( /{{\s*([^}]+)\s*}}/g,function(){
+				var exp = arguments[0].match(/\{\{(.*)\}\}/)[1];
+				return stubJs(exp);
+			})
+		}
+
+		return s;
 
 	}
 	function getDate(start,end){
