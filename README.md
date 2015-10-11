@@ -21,6 +21,8 @@ var data = stubJs({
 	date    : 'date',
 	color   : 'color',
 	animal  : 'random(dog,cat,mouse,fish)',
+	static  : 'my static string',
+	dynamic : 'my number is {{number(1,10)}}!'
 
 },2 );
 ```
@@ -36,6 +38,8 @@ Resulting stub data :
 		date    : js Date object,
 		color   : '#32cc12',
 		animal  : 'dog',
+		static  : 'my static string',
+		dynamic : 'my number is 7!'
 	},
 	{
 		boolean : false,
@@ -46,20 +50,22 @@ Resulting stub data :
 		date    : js Date object,
 		color   : '#99aabb',
 		animal  : 'fish',
+		static  : 'my static string',
+		dynamic : 'my number is 9!'
 	}
 ]
 ```
 
 ## Options
 
-* boolean
-* string(length)
-* number(min,max)
-* object
-* array / array of objects
-* date(start,end)
-* color
-* random(list,of,available,items)
+* 'boolean'
+* 'string(length)'
+* 'number(min,max)'
+* 'object'
+* 'array / array of objects'
+* 'date(start,end)'
+* 'color'
+* 'random(list,of,available,items)'
 
 :+1:
 
