@@ -70,3 +70,5 @@ Resulting stub data :
 :+1:
 
 אין עוד מלבדו
+
+[![Analytics](https://ga-beacon.appspot.com/UA-31346292-2/mooioom/stubjs)](https://github.com/mooioom/ga-beacon)
