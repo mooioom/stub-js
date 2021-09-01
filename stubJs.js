@@ -18,7 +18,7 @@
 	},2)
 
 */
-window.stubJs = function( settings, amount ){
+let stubJs = function( settings, amount ){
 
 	var data;
 
@@ -85,3 +85,6 @@ window.stubJs = function( settings, amount ){
 	data = []; for(var a = 0;a<amount;a++) data.push( getData(settings,a) ); return data;
 
 }
+
+if(module) module.exports = stubJs;
+if(window) window.stubJs = stubJs;
