@@ -1,5 +1,5 @@
 {
-  "name": "stub-js",
+  "name": "@mooioom/stub",
   "version": "1.0.0",
   "description": "Js stub generator for creating **smart** dummy data",
   "main": "stubJs.js",
