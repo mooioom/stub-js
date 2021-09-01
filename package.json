@@ -1,0 +1,19 @@
+{
+  "name": "stub",
+  "version": "1.0.0",
+  "description": "Js stub generator for creating **smart** dummy data",
+  "main": "stubJs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooioom/stub-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mooioom/stub-js/issues"
+  },
+  "homepage": "https://github.com/mooioom/stub-js#readme"
+}
