@@ -86,5 +86,8 @@ let stubJs = function( settings, amount ){
 
 }
 
-if(module) module.exports = stubJs;
-if(window) window.stubJs = stubJs;
+if (typeof module !== 'undefined' && module.exports) {
+	module.exports = stubJs;
+} else {
+	window.stubJs = stubJs;
+}
